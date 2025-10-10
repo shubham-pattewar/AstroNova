@@ -333,6 +333,16 @@ requires-dist = [
     { name = "flask-cors", specifier = ">=6.0.1" },
     { name = "numpy", specifier = ">=2.3.3" },
     { name = "pandas", specifier = ">=2.3.3" },
+    { name = "gunicorn", specifier = ">=22.0.0" }
+]
+
+[[package]]
+name = "gunicorn"
+version = "22.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b9/62/df49681604a434190c1281a8b66826d7053e1f0e4701e51b1473185324e9/gunicorn-22.0.0.tar.gz", hash = "sha256:71661603d6d0299f187a02c9183427ce7a3299710cf9ce501256336e8b615d97", size = 101736 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/14/b4/2c11438914c62c95358043641b0728c045b849646b9a8964d47155e966e3/gunicorn-22.0.0-py3-none-any.whl", hash = "sha256:88878536b567d0130663189ec649c09c2a63752e50e96068e82ef6f369f8c148", size = 111161 }
 ]
 
 [[package]]
