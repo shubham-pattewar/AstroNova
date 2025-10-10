@@ -1,0 +1,69 @@
+> *Project Title:* Heritage Astronomy Instruments Simulator
+>
+> *Goal:* Build a fully functional, full-stack web application that showcases interactive 3D models of historical Indian astronomical instruments: *Samrat Yantra, Bhitti Yantra, and Nadi Valaya Yantra*. Users should be able to:
+>
+> 1. Input *latitude and longitude* in India to dynamically generate instrument dimensions.
+> 2. View *3D models* of instruments that are interactive (rotate, zoom, pan).
+> 3. Run *simulations* showing how these instruments track celestial objects (e.g., shadow movement, angular measurements, time tracking).
+> 4. Learn about the instruments’ *historical and astronomical significance*.
+>
+> *Frontend Requirements:*
+>
+> * Use *React.js, **Three.js, **Tailwind CSS*, HTML, and CSS.
+> * Pages: Home, Simulation, About Instruments.
+> * Components: Header, Footer, InstrumentCard, Simulator.
+> * Load *3D models dynamically* using Three.js.
+> * Responsive and modern *UI/UX theme* inspired by *heritage and astronomy*.
+> * Users can manipulate *time in simulations* to see dynamic behavior of instruments.
+>
+> *Backend Requirements:*
+>
+> * Use *Python Flask* for API development.
+> * Endpoints:
+>
+>   1. /api/instruments → Returns list of instruments and metadata.
+>   2. /api/dimensions → Accepts latitude and longitude, returns dynamically calculated dimensions for Samrat Yantra, Bhitti Yantra, and Nadi Valaya Yantra.
+> * Use *NumPy, Pandas, and math libraries* for calculations.
+> * Optional database (SQLite or JSON) to store instrument info and reference historical data.
+>
+> *3D Models:*
+>
+> * Create models** of Samrat Yantra, Bhitti Yantra, and Nadi Valaya Yantra.
+> * Models should be *accurate but simplified* for web rendering.
+> * Include interaction: rotation, zoom, pan, and basic animation for simulation (shadow movement, star tracking).
+>
+> 
+>
+> *Simulation Features:*
+>
+> * Dynamically generate *shadow of Samrat Yantra* based on latitude, time, and date.
+> * Show *tracking arcs for Bhitti Yantra and Nadi Valaya Yantra* to demonstrate celestial movement.
+> * Users can adjust *time of day* and see real-time updates on instruments.
+>
+> *Deployment & Platform:*
+>
+> * Entire project should be deployable on *Replit*.
+> * Include *all dependencies* (requirements.txt for backend, package.json for frontend).
+> * Ensure *frontend-backend connection worksI*.
+>
+> *Deliverables (Copy-Paste Ready):*
+>
+> 1. Full *React.js frontend code* with Tailwind styling and Three.js integration.
+> 2. Full *Python Flask backend code* with endpoints, calculations, and optional database.
+> 3.  3D models** for all three instruments or instructions to generate.
+> 4. *Integration code* connecting frontend and backend.
+> 5. *Simulation logic* for instrument behavior (shadows, angles, celestial tracking).
+> 6. Fully functional *responsive UI/UX* theme: Heritage + Astronomy.
+> 7. Clear instructions for running the project on *Replit*.
+>8. Astronomical Calendar - that will predict the upcoming events(solastics , eclipse etc)
+> *Extra Challenge:*
+>
+> * Make the simulation *interactive*: users can rotate instruments, adjust time, input location, and see dynamic behavior.
+> * Include *educational tooltips* describing each instrument and its purpose.
+>
+> *Final Output Expectation:*
+>
+> * A *full-stack web app* with interactive 3D models of Samrat, Bhitti, and Nadi Valaya Yantras.
+> * Dynamic simulation based on *latitude, longitude, and time*.
+> * Elegant, modern, and culturally themed UI.
+> * Fully ready to deploy and run on *Replit* with all code, models, and instructions.

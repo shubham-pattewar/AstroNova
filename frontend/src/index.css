@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-celestial-midnight text-celestial-starlight;
+  }
+}
+
+@layer components {
+  .heritage-gradient {
+    @apply bg-gradient-to-br from-heritage-bronze via-heritage-copper to-heritage-gold;
+  }
+  
+  .celestial-gradient {
+    @apply bg-gradient-to-br from-celestial-navy via-celestial-deepblue to-celestial-cosmos;
+  }
+  
+  .card-heritage {
+    @apply bg-celestial-deepblue border-2 border-heritage-bronze rounded-lg p-6 shadow-xl;
+  }
+  
+  .btn-primary {
+    @apply bg-heritage-gold text-celestial-navy px-6 py-2 rounded-lg font-semibold hover:bg-heritage-bronze transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-celestial-deepblue text-heritage-gold border-2 border-heritage-gold px-6 py-2 rounded-lg font-semibold hover:bg-celestial-navy transition-colors;
+  }
+}
